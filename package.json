@@ -1,34 +1,41 @@
 {
-  "name": "srapsware-strapi-cms",
-  "private": true,
+  "name": "srapsware-strapi-admin",
   "version": "0.1.0",
+  "private": true,
   "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "Shiv Singh"
+  },
   "scripts": {
+    "build": "strapi build",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.15.5",
-    "@strapi/plugin-users-permissions": "4.15.5",
-    "@strapi/plugin-i18n": "4.15.5",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.10",
+    "@strapi/plugin-i18n": "4.16.2",
+    "@strapi/plugin-seo": "^1.9.8",
+    "@strapi/plugin-users-permissions": "4.16.2",
+    "@strapi/provider-upload-cloudinary": "^4.16.2",
+    "@strapi/strapi": "4.16.2",
     "better-sqlite3": "8.6.0",
+    "pg": "^8.11.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "strapi-plugin-ezforms": "^0.1.7",
+    "strapi-plugin-vercel-deploy": "^1.4.0",
+    "strapi-provider-email-resend": "^1.0.4",
     "styled-components": "5.3.3"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "9ea35f77-7ac0-4f57-9801-62858be1b037"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "strapi": {
+    "uuid": "f7h7cbcb-2eb7-4432-8afa-9a6k797f2f9a"
+  }
 }

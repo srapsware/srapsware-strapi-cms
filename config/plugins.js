@@ -28,8 +28,8 @@ module.exports = ({ env }) => ({
           apiKey: env('RESEND_API_KEY'), // Required
         },
         settings: {
-          defaultFrom: 'contact@ashokseedplant.com',
-          defaultReplyTo: 'contact@ashokseedplant.com',
+          defaultFrom: 'contact@srapsware.com',
+          defaultReplyTo: 'contact@srapsware.com',
         },
       }
     },

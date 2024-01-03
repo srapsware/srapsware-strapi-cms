@@ -55,6 +55,11 @@
     "excerpt": {
       "type": "richtext",
       "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
     }
   }
 }

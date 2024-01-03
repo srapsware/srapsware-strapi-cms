@@ -5,7 +5,6 @@
 .eslintignore
 yarn.lock
 jsconfig.json
-favicon.png
 
 ############################
 # OS X

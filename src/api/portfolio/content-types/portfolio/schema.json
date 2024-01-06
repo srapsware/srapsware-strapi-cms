@@ -60,6 +60,9 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.seo"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }

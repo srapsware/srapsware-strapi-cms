@@ -1022,6 +1022,7 @@ export interface ApiPortfolioPortfolio extends Schema.CollectionType {
     slug: Attribute.UID<'api::portfolio.portfolio', 'title'>;
     excerpt: Attribute.RichText & Attribute.Required;
     seo: Attribute.Component<'shared.seo', true>;
+    url: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

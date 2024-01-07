@@ -4,7 +4,8 @@
   "info": {
     "singularName": "testimonial",
     "pluralName": "testimonials",
-    "displayName": "Testimonial"
+    "displayName": "Testimonial",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,6 +24,9 @@
     },
     "excerpt": {
       "type": "blocks"
+    },
+    "country": {
+      "type": "string"
     }
   }
 }

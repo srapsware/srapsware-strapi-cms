@@ -1167,6 +1167,7 @@ export interface ApiTestimonialTestimonial extends Schema.CollectionType {
     singularName: 'testimonial';
     pluralName: 'testimonials';
     displayName: 'Testimonial';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1176,6 +1177,7 @@ export interface ApiTestimonialTestimonial extends Schema.CollectionType {
     position: Attribute.String;
     slug: Attribute.UID<'api::testimonial.testimonial', 'name'>;
     excerpt: Attribute.Blocks;
+    country: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
